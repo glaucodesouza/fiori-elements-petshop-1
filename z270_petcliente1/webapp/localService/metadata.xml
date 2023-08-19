@@ -43,7 +43,7 @@
                 <Property Name="NroPets" Type="Edm.String" MaxLength="2" sap:display-format="NonNegative" sap:label="Quantidade de Pets"/>
             </EntityType>
             <EntityContainer Name="ZE270_PETCLIENTE_CDS_Entities" m:IsDefaultEntityContainer="true" sap:message-scope-supported="true" sap:supported-formats="atom json xlsx">
-                <EntitySet Name="ZE270_PETCLIENTE" EntityType="ZE270_PETCLIENTE_CDS.ZE270_PETCLIENTEType" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1"/>
+                <EntitySet Name="ZE270_PETCLIENTE" EntityType="ZE270_PETCLIENTE_CDS.ZE270_PETCLIENTEType" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:searchable="true" sap:content-version="1"/>
             </EntityContainer>
             <Annotations Target="ZE270_PETCLIENTE_CDS.ZE270_PETCLIENTE_CDS_Entities" xmlns="http://docs.oasis-open.org/odata/ns/edm">
                 <Annotation Term="Common.ApplyMultiUnitBehaviorForSortingAndFiltering" Bool="true"/>

@@ -24,6 +24,12 @@
     <edmx:DataServices>
         <Schema Namespace="ze270_petcliente_cds_van.v1" xmlns="http://docs.oasis-open.org/odata/ns/edm">
             <Annotations Target="ZE270_PETCLIENTE_CDS.ZE270_PETCLIENTEType">
+                <Annotation Term="UI.HeaderInfo">
+                    <Record>
+                        <PropertyValue Property="TypeName" String="Cliente"/>
+                        <PropertyValue Property="TypeNamePlural" String="Clientes"/>
+                    </Record>
+                </Annotation>
                 <Annotation Term="UI.LineItem">
                     <Collection>
                         <Record Type="UI.DataField">
